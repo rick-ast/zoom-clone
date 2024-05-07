@@ -11,6 +11,9 @@ const font = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Yoom',
   description: 'A Zoom clone App',
+  icons: {
+    icon: '/icons/logo.svg',
+  },
 }
 
 export default function RootLayout({
