@@ -1,7 +1,13 @@
+import { Metadata } from 'next'
 import { FC, PropsWithChildren } from 'react'
 
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
+
+export const metadata: Metadata = {
+  title: 'YOOM',
+  description: 'Yet another Zoom',
+}
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
